@@ -21,6 +21,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "build:watch": "tsc --watch",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "jest",
