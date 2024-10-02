@@ -1,0 +1,14 @@
+{
+  "name": "@jdevelop/saas",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jean-Denis VIDOT",
+    "email": "contact@jdevelop.io"
+  },
+  "private": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.17.0",
+    "pnpm": ">=9.12.0"
+  }
+}
