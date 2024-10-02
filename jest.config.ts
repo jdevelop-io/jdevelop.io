@@ -18,7 +18,7 @@ const config: Config = {
   coverageDirectory: 'coverage',
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
-  collectCoverageFrom: ['**/*.ts', '!jest.config.ts'],
+  collectCoverageFrom: ['src/**/*.ts'],
 
   // An array of regexp pattern strings used to skip coverage collection
   coveragePathIgnorePatterns: ['/node_modules/', '/coverage/', '/dist/'],
@@ -48,6 +48,7 @@ const config: Config = {
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
+    '^@test:(.*)$': '<rootDir>/test/unit/$1',
   },
 }
 
