@@ -22,7 +22,7 @@
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc",
+    "build": "pnpm prebuild && tsc",
     "build:watch": "tsc --watch",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
