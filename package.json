@@ -33,6 +33,7 @@
     "build:watch": "tsc --watch",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "lint": "eslint . --fix",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
