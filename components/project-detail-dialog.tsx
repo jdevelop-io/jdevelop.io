@@ -59,13 +59,13 @@ export function ProjectDetailDialog({
 
           {project.url && (
             <div className="flex justify-end pt-2">
-              <Button asChild className="w-full sm:w-auto">
-                <a
-                  href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center"
-                >
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto"
+              >
+                <Button className="w-full sm:w-auto">
                   Visit Project
                   <svg
                     className="ml-2 h-4 w-4 flex-shrink-0"
@@ -80,8 +80,8 @@ export function ProjectDetailDialog({
                       d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                     />
                   </svg>
-                </a>
-              </Button>
+                </Button>
+              </a>
             </div>
           )}
         </div>

@@ -31,7 +31,9 @@ export function TechBadge({ name, experience, index = 0 }: TechBadgeProps) {
     return (
       <TooltipProvider>
         <Tooltip>
-          <TooltipTrigger asChild>{badge}</TooltipTrigger>
+          <TooltipTrigger>
+            {badge}
+          </TooltipTrigger>
           <TooltipContent>
             <p>{experience} of experience</p>
           </TooltipContent>
