@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "title": "Jean-Denis VIDOT",
+    "subtitle": "Développeur Full-Stack Senior & Entrepreneur",
+    "tagline": "Création de solutions SaaS scalables et modernisation de systèmes legacy",
+    "availability": "Occupé jusqu'en juin 2026",
+    "cta": "Voir mes réalisations"
+  },
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "expertise": "Expertise",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "À propos",
+    "intro": "Avec <strong>9 ans d'expérience professionnelle</strong> et codant depuis 2005, j'aide les entreprises à construire et faire évoluer leurs produits digitaux.",
+    "experience": "J'ai travaillé en tant que Développeur Senior, Tech Lead et Contributeur Individuel, livrant des solutions pour des clients de diverses industries.",
+    "value": "Je transforme les défis techniques complexes en solutions élégantes qui favorisent la croissance business."
+  },
+  "services": {
+    "title": "Ce que je fais",
+    "items": {
+      "saas": {
+        "title": "Développement SaaS",
+        "description": "Développement full-stack d'applications web scalables du concept à la production"
+      },
+      "legacy": {
+        "title": "Modernisation Legacy",
+        "description": "Transformation de systèmes obsolètes en architectures modernes et maintenables"
+      },
+      "training": {
+        "title": "Formation Technique",
+        "description": "Montée en compétences de vos équipes avec ateliers pratiques et mentorat"
+      },
+      "consulting": {
+        "title": "Conseil en Architecture",
+        "description": "Architecture adaptée du monolithe modulaire aux microservices, selon votre échelle"
+      }
+    }
+  },
+  "expertise": {
+    "title": "Expertise",
+    "languages": "Langages",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "messageBrokers": "Message Brokers",
+    "databases": "Bases de données",
+    "cloud": "Cloud & DevOps",
+    "monitoring": "Monitoring",
+    "methodologies": "Méthodologies",
+    "tools": "Outils",
+    "experience": "{years} d'expérience"
+  },
+  "projects": {
+    "title": "Projets",
+    "live": "En ligne",
+    "comingSoon": "Bientôt",
+    "visitProject": "Visiter le projet",
+    "techStack": "Stack technique",
+    "keyFeatures": "Fonctionnalités clés"
+  },
+  "methodologies": {
+    "title": "Ma méthode de travail",
+    "subtitle": "Architecture pragmatique, développement axé sur la qualité",
+    "description": "Je choisis l'architecture adaptée à vos besoins—microservices quand l'échelle l'exige, monolithe modulaire quand la simplicité gagne. Je suis des pratiques éprouvées comme TDD, DDD et l'Event-Driven Architecture, en m'adaptant toujours à votre contexte."
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "name": "Nom",
+    "email": "Email",
+    "company": "Entreprise",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès !",
+    "required": "requis",
+    "errors": {
+      "nameRequired": "Le nom est requis",
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "Format d'email invalide",
+      "messageRequired": "Le message est requis",
+      "messageShort": "Le message doit contenir au moins 20 caractères",
+      "failed": "Échec de l'envoi du message. Veuillez réessayer."
+    }
+  },
+  "footer": {
+    "tagline": "Expert en solutions SaaS clients, migrations legacy et software craftsmanship",
+    "legal": "Informations légales",
+    "rights": "Tous droits réservés."
+  }
+}
